@@ -22,7 +22,7 @@ body {
 
 /* Header com imagem e conteúdo centralizado */
 .header {
-  background-image: url('imagens/capa1.png');
+  background-image: url('imagens/capa.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
