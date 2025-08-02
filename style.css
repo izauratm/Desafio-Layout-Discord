@@ -1,0 +1,362 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif, Regular;
+  line-height: 1.6;
+  background: white;
+  font-size: 18px;
+}
+
+/* Container padrão */
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+/* Header com imagem e conteúdo centralizado */
+.header {
+  background-image: url('imagens/capa1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+
+/* Navbar com botões */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Efeito ao passar o mouse */
+.navbar .nav-links a:hover {
+  border: 2px solid #675dec; /* Borda  */
+  padding: 8px 12px;
+  box-shadow: 0 0 6px rgba(0, 178, 255, 0.5); /* Brilho sutil */
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #675dec;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.btn-login {
+  background-color: white;
+  color: #404EED;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn-login:hover {
+  background-color: whitesmoke;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
+}
+
+/* Hero centralizado */
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h2 {
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif, ExtraBold;
+  font-size: 40px;
+}
+
+.titulo {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: Luckiest Guy;
+}
+
+.texto {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/* Botão: Baixar para Windows */
+.btn-windows {
+  background-color: #FFFFFF;
+  color: #23272a;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 28px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-windows:hover {
+  background-color: #ebebeb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
+}
+
+/* Botão: Abrir o Discord no navegador */
+.btn-discord {
+  background-color: #23272a;
+  color: #ffffff;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 28px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-discord:hover {
+  background-color: #2c2f33;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.04);
+}
+
+/* Seções */
+.section,
+.section-gray {
+  padding: 80px 0;
+}
+
+.section-gray {
+  background: linear-gradient(135deg, #6466df, #4643e7);
+}
+
+.section-second {
+  background: linear-gradient(135deg, #4643e7, #6466df);
+}
+
+.section-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-image {
+  width: 45%;
+  border-radius: 20px;
+}
+
+.text-content {
+  width: 50%;
+}
+
+/* Seção final */
+.section-final {
+  background: linear-gradient(135deg, #4643e7, #6466df);
+  text-align: center;
+  padding: 100px 0;/*background-color: #706ac2;*/
+}
+
+.titulo-final {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.texto-final {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.imagem-final {
+  max-width: 100%;
+  border-radius: 20px;
+  height: auto;
+}
+
+/* Rodapé */
+.footer {
+  background-image: url(imagens/Header\ Background\ \(1\).png);
+  background-size: cover;
+  background-position: 0% center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* Container do seletor de idioma */
+.container-idioma {
+  background-color: #686ae6;
+  padding: 18px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  max-width: 420px;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Label */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+/* Select customizado */
+select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #737bd4;
+  color: #ffffff;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23ffffff' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 20px;
+}
+
+/* Efeito ao focar */
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(88, 101, 242, 0.5);
+}
+
+.social i {
+  font-size: 18px;
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-logo img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  font-size: 14px;
+}
+
+/*responsividade*/
+@media screen and (max-width: 430px) {
+
+  /* Layout em coluna para iPhone 13 Pro Max */
+  .section-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-image {
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .section-image,
+  .text-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container {
+    width: 95%;
+    padding: 0 10px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .titulo {
+    font-size: 36px;
+  }
+
+  .texto {
+    font-size: 16px;
+  }
+
+  /* Troca da imagem de fundo no header */
+  .header {
+    background-image: url('imagens/Header\ Background.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Alinhar botões e título no centro */
+  .hero-content {
+    text-align: center;
+  }
+
+  /* Rodapé com layout adaptado */
+  .footer {
+    padding: 60px 20px;
+    background-position: center;
+  }
+
+  .container-idioma {
+    margin: 0 auto;
+  }
+}
