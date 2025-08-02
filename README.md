@@ -85,7 +85,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-> Projeto educacional sem fins lucrativos.  
+> Este projeto é apenas para fins educacionais e não possui nenhuma afiliação com a empresa Discord.  
 > Todos os direitos reservados ao Discord.
 
 ## 📝 License
@@ -94,5 +94,5 @@ This project is under the MIT license. See the [LICENSE](LICENSE) file for detai
 
 ---
 
-> Educational project, non-profit.  
+> This project is for educational purposes only and has no affiliation with the company Discord.  
 > All rights reserved to Discord. 
