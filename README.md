@@ -1,4 +1,4 @@
-# Desafio Discord / Discord Challenge
+# <h1 align="center"> Desafio Discord / Discord Challenge</h1>
 
 ![Discord Banner](https://github.com/user-attachments/assets/990ef7ab-766c-41e1-819b-6c3def8ef40a)
 
