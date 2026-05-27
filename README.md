@@ -1,4 +1,4 @@
-# Desafio Discord / Discord Challenge
+# <h1 align="center"> Desafio Discord / Discord Challenge</h1>
 
 ![Discord Banner](https://github.com/user-attachments/assets/990ef7ab-766c-41e1-819b-6c3def8ef40a)
 
@@ -25,16 +25,8 @@ Veja como fica a página: / See how the page looks:
 index.html
 style.css
 LICENSE
-imagens/
-  capa1.png
-  Group.png
-  Header Background (1).png
-  Header Background.png
-  Section Image (4).png
-  Section Image (5).png
-  Section Image (6).png
-  Section Image.png
-  Vector (1).png
+imagens
+  
 ```
 
 ## 💡 Funcionalidades 
